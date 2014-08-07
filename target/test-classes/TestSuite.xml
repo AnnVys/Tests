@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Plan" verbose="1">
+
+	<test name="Main Search Test" preserve-order="true">
+	    <parameter name="url" value="http://www.tut.by/" />
+		<parameter name="searchWord" value="Itransition" />
+		<parameter name="cityName" value="Витебск" />
+	    <parameter name="weather" value="Погода" />
+		<parameter name="typeNews" value="НАУКА И ТЕХНОЛОГИИ" />
+		<parameter name="sublevelNews" value="Наука" />
+	    <parameter name="aviatickets" value="Авиабилеты" />
+		<parameter name="city1" value="Минск" />
+		<parameter name="city2" value="Москва" />
+		<parameter name="afisha" value="Афиша" />
+		<parameter name="sublevelAfisha" value="Спектакли" />
+	    <parameter name="finances" value="Финансы" />
+		<parameter name="currency" value="Доллар США" />
+		<parameter name="allResources" value="Все ресурсы" />
+	    <parameter name="tourism" value="Туризм" />
+	    <parameter name="shops" value="Магазины" />
+		<parameter name="modelName" value="Apple iPhone 5 16Gb" />
+		<parameter name="open" value="Характеристики" />
+	    <parameter name="jobs" value="Работа" />
+		<parameter name="job" value="QA" />
+		<parameter name="sortBy" value="по убыванию зарплаты" />
+	    <parameter name="post" value="Почта" />
+		<parameter name="login" value="y.syrokvasha" />
+		<parameter name="pass" value="PasswForT" />
+		<classes>
+			<class name="demo.test.FinanceTest" />
+			<class name="demo.test.KupiTest" />
+			<class name="demo.test.AfishaTest" />
+			<class name="demo.test.AviaTicketsTest" />			
+			<class name="demo.test.WeatherTest" />
+			<class name="demo.test.ScienstNewsTest" />
+			<class name="demo.test.MainSearchTest" />
+			<class name="demo.test.TourismTest" />
+		    <class name="demo.test.JobsTest" />
+			<class name="demo.test.LoginForPost" />
+		</classes>
+	</test>
+
+</suite>

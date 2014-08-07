@@ -1,0 +1,39 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x6d439055, pid=2728, tid=5132
+#
+# JRE version: 6.0_29-b11
+# Java VM: Java HotSpot(TM) Client VM (20.4-b02 mixed mode windows-x86 )
+# Problematic frame:
+# C  [jdwp.dll+0x19055]
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x01eb4800):  JavaThread "JDWP Command Reader" daemon [_thread_in_native, id=5132, stack(0x18ad0000,0x18b20000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x00000000
+
+Registers:
+EAX=0x00000000, EBX=0x00000000, ECX=0x18b1fb54, EDX=0x00000000
+ESP=0x18b1fb38, EBP=0x18b1fb64, ESI=0x6d43e840, EDI=0x6d43ffc0
+EIP=0x6d439055, EFLAGS=0x00010246
+
+Top of Stack: (sp=0x18b1fb38)
+0x18b1fb38:   01ea4328 6d43e840 6d42b8ad 01ea4328
+0x18b1fb48:   00000000 00000000 01eb4800 00000000
+0x18b1fb58:   0000128e 01020100 19743bc0 18b1fba4
+0x18b1fb68:   6d9710b7 01df1ee8 01eb4928 00000000
+0x18b1fb78:   01eb4800 6d9b8f14 01eb4800 01eb4800
+0x18b1fb88:   01eb4800 01eb4800 01eb5170 01eb5970
+0x18b1fb98:   01eb5978 01eb5d64 01eb5190 18b1ff54
+0x18b1fba8:   6d9e0fec 18b1fc84 18b1fc08 00000001 
+
+Instructions: (pc=0x6d439055)
+0x6d439035:   44 6d e8 21 a0 ff ff 83 c4 10 33 c0
