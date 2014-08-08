@@ -12,7 +12,7 @@
 		<parameter name="city1" value="Минск" />
 		<parameter name="city2" value="Москва" />
 		<parameter name="afisha" value="Афиша" />
-		<parameter name="sublevelAfisha" value="Спектакли" />
+		<parameter name="sublevelAfisha" value="Концерты" />
 	    <parameter name="finances" value="Финансы" />
 		<parameter name="currency" value="Доллар США" />
 		<parameter name="allResources" value="Все ресурсы" />
