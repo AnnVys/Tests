@@ -8,7 +8,7 @@ public class LoginForPost extends BaseTest {
 	public void runTest() {
 
 		logger.step(1);
-		browser.navigate("http://www.tut.by/");
+		browser.navigate(url);
 		logger.step(2);
 		MainPage mp = new MainPage();
 		mp.assertLogo();
